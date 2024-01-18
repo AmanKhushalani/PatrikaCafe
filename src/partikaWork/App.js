@@ -74,7 +74,7 @@ function App() {
     <>
     <NavBar />
     {
-      Count == 0 ?  
+      Count === 0 ?  
       <FoodMenu ProductData={ProductData} SelectedFoodItems={SelectedFoodItems} SetSelectedFoodItems={SetSelectedFoodItems} /> : 
       <OrderSummary ProductData={SelectedFoodItems}  SetProductData={SetSelectedFoodItems} TotalPrice={TotalPrice} />
     }

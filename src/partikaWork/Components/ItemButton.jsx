@@ -5,10 +5,10 @@ const ItemButton = ({Item , SetProductData}) => {
       <div className="ItemButton">
         <div className="QuantityButton" onClick={()=>{
 
-          if (Item.Quantity == 0) return 0;
+          if (Item.Quantity === 0) return 0;
           SetProductData((PreviousValue)=>{
             return PreviousValue.map(
-              (CurrentItem)=> CurrentItem.ItemId == Item.ItemId ? {
+              (CurrentItem)=> CurrentItem.ItemId === Item.ItemId ? {
                 ...CurrentItem , 
                 "Quantity" : CurrentItem.Quantity-1,
                 "TotalPrice" : CurrentItem.Price * (CurrentItem.Quantity-1)
@@ -20,7 +20,7 @@ const ItemButton = ({Item , SetProductData}) => {
         <div className="QuantityButton" onClick={()=>{
           SetProductData((PreviousValue)=>{
             return PreviousValue.map(
-              (CurrentItem)=> CurrentItem.ItemId == Item.ItemId ? {
+              (CurrentItem)=> CurrentItem.ItemId === Item.ItemId ? {
                 ...CurrentItem , 
                 "Quantity" : CurrentItem.Quantity+1,
                 "TotalPrice" : CurrentItem.Price * (CurrentItem.Quantity+1)

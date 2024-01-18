@@ -1,10 +1,6 @@
 import "../Css/OrderSummary.css";
-import IdliSambhar from "../Assets/imgs/IdliSambar.jpg";
-import SevTamatar from "../Assets/imgs/SevTamatar.jpeg";
-import ShahiPaneer from "../Assets/imgs/ShahiPaneer.jpeg";
 
 import ItemButton from "./ItemButton";
-import { useEffect, useState } from "react";
 const OrderSummary = ({ProductData , SetProductData , TotalPrice}) => {
   
   
