@@ -1,0 +1,17 @@
+.ItemButton{
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    width: 75px;
+    align-items: center;
+}
+.ItemButton div{
+    /* padding: 5px; */
+    display: flex;
+    justify-content: center;
+}
+.QuantityButton{
+    cursor: pointer;
+}

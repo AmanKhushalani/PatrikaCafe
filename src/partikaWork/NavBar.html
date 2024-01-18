@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    #NavBar{
+        /* border: 2px solid red; */
+
+        background-color: antiquewhite;
+        box-shadow: 0px 2px 8px #00000075;
+
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        column-gap: 1rem;
+    }
+
+    #NavbarLogo{
+        width: 100px;
+        height: 100px;
+        /* border: 2px solid red; */
+    }
+
+    #logo img{
+        position: inherit;
+        width: 100%;
+    }
+
+
+    #NavbarLinks{
+
+        /* border: 2px solid red; */
+        margin: 5px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        column-gap: 1rem;
+    }
+
+    .NavLink{
+        cursor: pointer;
+    }
+</style>
+<body>
+
+    <div id="NavBar">
+
+        <div id="NavbarLogo">
+            <div id="logo">
+                <img src="./Assets/imgs/PatrikaCafeLogo.png" alt="">
+            </div>
+        </div>
+        <div id="NavbarLinks">
+            <div class="NavLink">Home</div>
+            <div class="NavLink">About</div>
+            <div class="NavLink">Menu</div>
+        </div>
+
+    </div>
+    
+</body>
+</html>

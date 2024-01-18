@@ -1,0 +1,129 @@
+#OrderSummaryHolder {
+    /* position: fixed; */
+    /* border: 2px solid blue; */
+    width: 100%;
+    min-height: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    z-index: 11;
+}
+
+#OrderSummary {
+    width: 70%;
+    /* border: 3px solid black; */
+    padding: 5px 15px;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0.4rem;
+}
+
+#OrderSummary .heading {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#SummaryList {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 0px 2px 8px #00000075;
+}
+
+#SummaryList .row {
+    display: grid;
+    border: 1px solid #00000046;
+    border-radius: 5px;
+    box-shadow: 0px 2px 8px #0000002b;
+    transition: 400ms ease-in-out;
+    /* justify-content: flex-start; */
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+    /* border: 2px solid red; */
+    margin-top: 0.5rem;
+    width: 100%;
+}
+
+#SummaryList .row:hover{
+    box-shadow: 0px 2px 4px #0000009a;
+}
+
+#SummaryList .row .ItemImg {
+    
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#SummaryList .row .ItemImg img {
+    object-fit: contain;
+    position: relative;
+    height: 60px;
+    width: 60px;
+}
+
+#SummaryList .row:last-child{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#SummaryList .row .ItemName,
+#SummaryList .row .ItemPrice,
+#SummaryList .row .ItemCount ,
+#SummaryList .row .ItemImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 940px) {
+    /* #OrderSummaryHolder { */
+        /* background-color: white; */
+    /* } */
+    
+    #OrderSummary {
+        width: 100%;
+    }    
+    #SummaryList {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    #OrderSummaryHolder {
+        margin-top: 20px;
+        /* border: 2px solid blue; */
+        padding-left: 0;
+        padding-right: 0;
+        /* background-color: white; */
+    }
+    
+    #OrderSummary {
+        /* border: 2px solid blue; */
+        padding: 0;
+        width: 100%;
+    }    
+    #SummaryList {
+        /* border: 2px solid blue; */
+        width: 100%;
+        padding: 10px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    #SummaryList .row .ItemPrice{
+        justify-content: center;
+    }
+
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    
+    const array1 = [1, 2, 3, 4];
+    
+    // 0 + 1 + 2 + 3 + 4
+    const initialValue = 0;
+    const sumWithInitial = array1.map((item)=> item%2==0 ? item*2 : "Amar"  );
+
+    console.log(sumWithInitial);
+    // Expected output: 10
+
+</script>
+<body>
+    
+</body>
+</html>
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #OrderSummary{
+        border: 2px solid red;
+        padding: 5px 15px;
+    }
+    #OrderSummary .heading{
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    #SummaryList{
+        border: 2px solid red;
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    }
+
+    #SummaryList .row{
+        display: flex;
+        justify-content: flex-start;
+        column-gap: 1rem;
+        row-gap: 1rem;
+        border: 2px solid red;
+        margin-top: 0.5rem;
+        width: 100%;
+    }
+
+    #SummaryList .row .ItemImg{
+        height: 60px;
+        width: 60px;
+        /* border: 1px solid blue; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #SummaryList .row .ItemImg img{
+        object-fit: contain;
+        position: relative;
+        width: 100%;
+    }
+
+    #SummaryList .row .ItemName , #SummaryList .row .ItemPrice{
+        display: flex;
+        align-items: center;
+        /* vertical-align: middle; */
+    }
+  
+
+</style>
+<body>
+
+   <div id="OrderSummary">
+
+        <div class="heading">Order Summary</div>
+
+        <div id="SummaryList">
+            
+            <div class="row">
+                <div class="ItemImg">
+                    <img src="./Assets/imgs/IdliSambar.jpg" alt="">
+                </div>
+                <div class="ItemName">Idli Sambhar</div>
+                <div class="ItemCount"></div>
+                <div class="ItemPrice">50/-</div>
+            </div>
+
+            <div class="row">
+                <div class="ItemImg">
+                    <img src="./Assets/imgs/SevTamatar.jpeg" alt="">
+                </div>
+                <div class="ItemName">Sev Tamatar</div>
+                <div class="ItemCount"></div>
+                <div class="ItemPrice">50/-</div>
+            </div>
+
+            <div class="row">
+                <div class="ItemImg">
+                    <img src="./Assets/imgs/ShahiPaneer.jpeg" alt="">
+                </div>
+                <div class="ItemName">Shahi Paneer</div>
+                <div class="ItemCount"></div>
+                <div class="ItemPrice">50/-</div>
+            </div>
+
+        </div>
+
+   </div>
+
+    
+    
+</body>
+</html> -->

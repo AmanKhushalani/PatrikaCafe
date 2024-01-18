@@ -1,0 +1,37 @@
+#NavBar{
+    /* border: 2px solid red; */
+    /* antiquewhite */
+    background-color: rgb(253, 223, 184);
+    box-shadow: 0px 2px 8px #00000075;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+#NavbarLogo{
+    width: 100px;
+    height: 100px;
+    /* border: 2px solid red; */
+}
+
+#logo img{
+    position: inherit;
+    width: 100%;
+}
+
+
+#NavbarLinks{
+
+    /* border: 2px solid red; */
+    margin: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.NavLink{
+    cursor: pointer;
+}
