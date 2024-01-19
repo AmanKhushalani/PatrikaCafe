@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.d22a798b.css",
-    "main.js": "/react-gh-pages/static/js/main.397b5ecd.js",
-    "static/media/SevTamatar.jpeg": "/react-gh-pages/static/media/SevTamatar.4fc3244f56db1cd03af4.jpeg",
-    "static/media/CholeBhature.jpg": "/react-gh-pages/static/media/CholeBhature.1111db589fa1a9ed6698.jpg",
-    "static/media/IdliSambar.jpg": "/react-gh-pages/static/media/IdliSambar.0010f78a85de0a4bdebc.jpg",
-    "static/media/ShahiPaneer.jpeg": "/react-gh-pages/static/media/ShahiPaneer.b018d6010fc79cd18e19.jpeg",
-    "static/media/ButterRoti.webp": "/react-gh-pages/static/media/ButterRoti.6731cab8a57bb8ca7c6d.webp",
-    "static/media/PatrikaCafeLogo.png": "/react-gh-pages/static/media/PatrikaCafeLogo.04da9582524a8376d76e.png",
-    "index.html": "/react-gh-pages/index.html",
-    "main.d22a798b.css.map": "/react-gh-pages/static/css/main.d22a798b.css.map",
-    "main.397b5ecd.js.map": "/react-gh-pages/static/js/main.397b5ecd.js.map"
+    "main.css": "/PatrikaCafe/static/css/main.d22a798b.css",
+    "main.js": "/PatrikaCafe/static/js/main.75fe6ee7.js",
+    "static/media/SevTamatar.jpeg": "/PatrikaCafe/static/media/SevTamatar.4fc3244f56db1cd03af4.jpeg",
+    "static/media/CholeBhature.jpg": "/PatrikaCafe/static/media/CholeBhature.1111db589fa1a9ed6698.jpg",
+    "static/media/IdliSambar.jpg": "/PatrikaCafe/static/media/IdliSambar.0010f78a85de0a4bdebc.jpg",
+    "static/media/ShahiPaneer.jpeg": "/PatrikaCafe/static/media/ShahiPaneer.b018d6010fc79cd18e19.jpeg",
+    "static/media/ButterRoti.webp": "/PatrikaCafe/static/media/ButterRoti.6731cab8a57bb8ca7c6d.webp",
+    "static/media/PatrikaCafeLogo.png": "/PatrikaCafe/static/media/PatrikaCafeLogo.04da9582524a8376d76e.png",
+    "index.html": "/PatrikaCafe/index.html",
+    "main.d22a798b.css.map": "/PatrikaCafe/static/css/main.d22a798b.css.map",
+    "main.75fe6ee7.js.map": "/PatrikaCafe/static/js/main.75fe6ee7.js.map"
   },
   "entrypoints": [
     "static/css/main.d22a798b.css",
-    "static/js/main.397b5ecd.js"
+    "static/js/main.75fe6ee7.js"
   ]
 }
