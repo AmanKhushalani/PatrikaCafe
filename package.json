@@ -1,7 +1,7 @@
 {
   "name": "react-app",
   "version": "0.1.0",
-  "homepage": "https://AmanKhushalani.github.io/react-gh-pages",
+  "homepage": "https://AmanKhushalani.github.io/PatrikaCafe",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
